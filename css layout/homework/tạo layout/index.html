@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            background-color: aqua;
+            width: 100%;
+            height: 100px;
+            margin-bottom: 5px;
+            position: relative;
+        }
+
+        nav {
+            background-color: antiquewhite;
+            width: 100%;
+            height: 50px;
+            position: absolute;
+            top: 50px;
+        }
+
+        main {
+            position: relative;
+        }
+
+        .left {
+            width: 70%;
+            height: 600px;
+        }
+
+        section {
+            background-color: bisque;
+            height: 300px;
+            padding-top: 0;
+        }
+
+        article {
+            background-color: blueviolet;
+            height: 300px;
+        }
+
+        .right {
+            width: 30%;
+            height: 600px;
+            background-color: blue;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        footer{
+            width: 100%;
+            height: 100px;
+            background-color: aqua;
+            clear: both;
+            margin-top: 5px;
+        }
+        p{
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav></nav>
+    </header>
+    <main>
+        <div class="left">
+            <section>
+                <p>section</p>
+            </section>
+            <article>
+                <p>article</p>
+            </article>
+        </div>
+        <div class="right">
+            <aside>
+                <p>aside</p>
+            </aside>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
